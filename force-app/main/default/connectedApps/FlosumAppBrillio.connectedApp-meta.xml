@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jmetzger@flosum.com</contactEmail>
+    <label>FlosumAppBrillio</label>
+    <oauthConfig>
+        <callbackUrl>https://brillioflosum--flosum.vf.force.com/apex/flosum__registerorganizations
+https://brillioflosum--flosum.vf.force.com/apex/flosum__editrepositorysettings
+https://brillioflosum--flosum.vf.force.com/apex/flosum__appsetting
+https://brillioflosum--flosum.vf.force.com/apex/flosum__createvlocitysnapshot
+https://brillioflosum--flosum.vf.force.com/apex/flosum__vlocitycleanorgdata
+https://brillioflosum--flosum.vf.force.com/apex/flosum__vlocityinstallvlocityinitial
+https://brillioflosum--flosum.vf.force.com/apex/flosum__componentvlocitydeployment
+https://brillioflosum--flosum.vf.force.com/apex/flosum__componentbranchdeploy
+oob</callbackUrl>
+        <consumerKey>3MVG9dKFWsESbpkHWhH4dWMDftveqC8QYlnJWqCd7wshQD5DqTkC1DcNJOwbBreBtIgAh56cDxvNAqca2xBQw</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

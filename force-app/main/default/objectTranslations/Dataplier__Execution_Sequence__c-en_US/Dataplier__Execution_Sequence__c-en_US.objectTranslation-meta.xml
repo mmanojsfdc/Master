@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Dataplier__ExecutionSequence</name>
+    </recordTypes>
+    <webLinks>
+        <label></label>
+        <name>Dataplier__Auto_Generate_Sequence</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Dataplier__Dry_Run</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Dataplier__PrePostActions</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Dataplier__Schedule_Migration</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Dataplier__Start_Execution</name>
+    </webLinks>
+</CustomObjectTranslation>

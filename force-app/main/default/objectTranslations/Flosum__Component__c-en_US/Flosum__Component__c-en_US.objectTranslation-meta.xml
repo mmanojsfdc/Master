@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label></label>
+        <name>Flosum__Branch</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Flosum__Repository</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Flosum__ValidateComponent</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Flosum__Add_Components</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Flosum__Delete_Components</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Flosum__Search_Replace_Text</name>
+    </webLinks>
+</CustomObjectTranslation>
