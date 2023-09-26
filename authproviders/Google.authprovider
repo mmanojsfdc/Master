@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <consumerKey>149518004903-jeh8k50c5j809pv449rh568eqv9bgvpk.apps.googleusercontent.com</consumerKey>
+    <consumerSecret>Placeholder_Value</consumerSecret>
+    <executionUser>skothare@google.com.capedevops.devflprod2</executionUser>
+    <friendlyName>Google</friendlyName>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/200px-Google_%22G%22_Logo.svg.png</iconUrl>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>Google</providerType>
+    <registrationHandler>LassoPlus__Lasso</registrationHandler>
+    <requireMfa>false</requireMfa>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+</AuthProvider>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Work: W-000089
+Summary: Permission set for GCP Integration User</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>GCP Integration User</label>
+</PermissionSet>

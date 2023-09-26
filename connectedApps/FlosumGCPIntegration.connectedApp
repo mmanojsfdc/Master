@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>shg_relengg_team@google.com</contactEmail>
+    <label>FlosumGCPIntegration</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDtzCCAp8CFDgWZmulK21AoIuGJnFdG+5ojxhEMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzETMBEGA1UECgwKR29vZ2xlIExMQzEMMAoGA1UECwwDU0hHMQwwCgYDVQQDDANTSEcxKjAoBgkqhkiG9w0BCQEWG3NoZ19yZWxlbmdnX3RlYW1AZ29vZ2xlLmNvbTAeFw0yMzA5MTkyMDA0NThaFw0yNDA5MTgyMDA0NThaMIGXMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzETMBEGA1UECgwKR29vZ2xlIExMQzEMMAoGA1UECwwDU0hHMQwwCgYDVQQDDANTSEcxKjAoBgkqhkiG9w0BCQEWG3NoZ19yZWxlbmdnX3RlYW1AZ29vZ2xlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7/OdtWOFcpNzqOS3H9TTbWAjfueZ0Xs642h9851i9zSlykdORIQ0lwxoP1Jez5gY9I9aLWldX8iu5Zzi39+ca/dxkZdeYYCVu/V5o/+TBweKAYFJ3HADVUtk5GBr3v2Fq7FEz2Ce/Gsw91os9RygTvpycRZUzyRW+CbFrGs8LtBr4dlHQtA94A5u9laU3TWKz7z/8rffTDwevYXwGln6J0wshnfHHisv2ROzapuMLMF6MStETBC3+ZCAqEdXkGHFo7lSw3KSb+zCvtrRaFTUFSx21raaM7s19CPu5WUH8ZZtn3EIeHXNHbkuhI1swrtXrI+6qnJB9ffa2T+fsdK3MCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEABY+y3oxnOSfcT/hVS1AjYtvqbnwkMLzzg8TAyVORW9ETyUOeXs9GqGnz6jBLjDOTi54FCtackXcl8t7RxvO/PWENJKv2CYrBLs0GYpEe8m6wQjJ5wpxIsKvTg+noJOAIuIu81H9xj1JuJGi9Gbx6XPbbEztJEGUEb17khqnQ9ZZef7EEiAAKXZvGEFhwoRsmdImmTA1LLCejTUqMuAbwQcanUK75TDoT5PH0dDzMrRX1pz2/okHCmwiyCyRSIlG6xUUNTj8vHym1OEONKZaXPcvpQZTxsjNus0Zo5QmHQ0B8fAZtROawqKe3y8974zfEt/wil02qJHB9Pj8lhRAFzw==</certificate>
+        <consumerKey>3MVG9A6Mm0rJfTIjxKe.GTH47xnD7CoxFRIxSiwIuFPjyW7HU7Fs11wfAC73JVjRDvj3Zyu9yH8B6cxat6yER</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>GCP Integration User</permissionSetName>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

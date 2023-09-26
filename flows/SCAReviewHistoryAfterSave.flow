@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>scaReviewHistoryAfterSave {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SCAReviewHistoryAfterSave</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Work Item: W-000175
+Summary: Update the SCA integration Status field at the branch level</description>
+        <name>Update_the_SCA_Integration_Status_at_Branch</name>
+        <label>Update the SCA Integration Status at Branch</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>SCA_Integration_Status__c</field>
+            <value>
+                <elementReference>$Record.SCA_Integration_Status__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Branch__r</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_the_SCA_Integration_Status_at_Branch</targetReference>
+        </connector>
+        <object>SCA_Review_History__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
