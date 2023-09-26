@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- API Name --></label>
+        <name>Flosum__API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Flosum__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom --></label>
+        <name>Flosum__Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- DataMaskObject --></label>
+        <name>Flosum__DataMaskObject__c</name>
+        <relationshipLabel><!-- DataMaskFields --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Max --></label>
+        <name>Flosum__Date_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Min --></label>
+        <name>Flosum__Date_Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Length --></label>
+        <name>Flosum__Field_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>Flosum__Field_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Library Name --></label>
+        <name>Flosum__LibraryName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Masking Type --></label>
+        <name>Flosum__Masking_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Range Max --></label>
+        <name>Flosum__Range_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Range Min --></label>
+        <name>Flosum__Range_Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>Flosum__Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique --></label>
+        <name>Flosum__Unique__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Client Certificate --></label>
+        <name>sectools__Client_Certificate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>sectools__Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Secret --></label>
+        <name>sectools__Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redirect URI --></label>
+        <name>sectools__Redirect_URI__c</name>
+    </fields>
+</CustomObjectTranslation>

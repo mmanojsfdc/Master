@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SCA Review History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SCA Review Histories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Branch__c</name>
+        <relationshipLabel><!-- SCA Review History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is SCA Passed --></label>
+        <name>Is_SCA_Passed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCA Integration Status --></label>
+        <name>SCA_Integration_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation><!-- Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Successful</masterLabel>
+            <translation><!-- Successful --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SCA Review History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

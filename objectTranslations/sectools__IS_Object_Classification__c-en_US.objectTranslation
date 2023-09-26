@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Data Classification --></label>
+        <name>sectools__Data_Classification__c</name>
+        <relationshipLabel><!-- Object Classifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Data Sub-Classification --></label>
+        <name>sectools__Data_Sub_Classification__c</name>
+        <picklistValues>
+            <masterLabel>PII Employee Data</masterLabel>
+            <translation><!-- PII Employee Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PII Financial Data</masterLabel>
+            <translation><!-- PII Financial Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PII Org Data</masterLabel>
+            <translation><!-- PII Org Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PII User Content</masterLabel>
+            <translation><!-- PII User Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PII User Metadata</masterLabel>
+            <translation><!-- PII User Metadata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Business Data</masterLabel>
+            <translation><!-- Public Business Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Employee Data</masterLabel>
+            <translation><!-- Public Employee Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Org Data</masterLabel>
+            <translation><!-- Public Org Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public User Content</masterLabel>
+            <translation><!-- Public User Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public User Metadata</masterLabel>
+            <translation><!-- Public User Metadata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPII Employee Data</masterLabel>
+            <translation><!-- SPII Employee Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPII Financial Data</masterLabel>
+            <translation><!-- SPII Financial Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPII Org Data</masterLabel>
+            <translation><!-- SPII Org Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPII User Content</masterLabel>
+            <translation><!-- SPII User Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPII User Metadata</masterLabel>
+            <translation><!-- SPII User Metadata --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Volume --></label>
+        <name>sectools__Data_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>sectools__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Sharing Model --></label>
+        <name>sectools__External_Sharing_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name Count --></label>
+        <name>sectools__Name_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Fields --></label>
+        <name>sectools__Num_of_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>sectools__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Classification Comments --></label>
+        <name>sectools__Object_Classification_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Data Classification --></label>
+        <name>sectools__Object_Data_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Confidential</masterLabel>
+            <translation><!-- Confidential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highly Confidential</masterLabel>
+            <translation><!-- Highly Confidential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted</masterLabel>
+            <translation><!-- Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted In Transition</masterLabel>
+            <translation><!-- Restricted In Transition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Untagged -pitfall</masterLabel>
+            <translation><!-- Untagged -pitfall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object Id --></label>
+        <name>sectools__Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Label --></label>
+        <name>sectools__Object_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object description --></label>
+        <name>sectools__Object_description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Override automated classification assignment based on highest sensitivity level across fields on this object --></help>
+        <label><!-- Override automated classification --></label>
+        <name>sectools__Override_automated_classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sharing Model --></label>
+        <name>sectools__Sharing_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Critical Fields --></label>
+        <name>sectools__of_Critical_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Restricted Fields --></label>
+        <name>sectools__of_Restricted_Fields__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Sync --></label>
+        <name>sectools__Sync</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <description>Work: W-000065
+Summary: Verify all the prerequisite conditions before creating a SCA review History record.</description>
+        <name>Verify_the_SCA_Review_History_Integration_Status</name>
+        <label>Verify the SCA Review History Integration Status</label>
+        <locationX>446</locationX>
+        <locationY>458</locationY>
+        <defaultConnector>
+            <targetReference>Create_SCA_Review_History_Record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Does_not_has_Apex_Code</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Current_Branch_Record.Has_Apex_Code__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Does_not_have_Apex_Component</targetReference>
+            </connector>
+            <label>Does not has Apex Code</label>
+        </rules>
+        <rules>
+            <name>Validation_is_not_Completed</name>
+            <conditionLogic>1 OR (2 AND 3) OR 4</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Latest_Flosum_Metadata_Log_Record</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Latest_Flosum_Metadata_Log_Record.Flosum__Succeed__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Latest_Flosum_Metadata_Log_Record.Flosum__Process_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Validate</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Latest_Flosum_Metadata_Log_Record.Flosum__Process_Type__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Validate</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Validation_Error</targetReference>
+            </connector>
+            <label>Validation is not Completed</label>
+        </rules>
+        <rules>
+            <name>SCA_Review_is_Pending_Or_Queued</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_latest_SCA_Review_History_Record.SCA_Integration_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_latest_SCA_Review_History_Record.SCA_Integration_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Queued</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SCA_is_still_in_Progress</targetReference>
+            </connector>
+            <label>SCA Review is Pending Or Queued</label>
+        </rules>
+    </decisions>
+    <description>Work: W-000065
+Summary: This flow is activated when a user clicks on the &quot;Submit for SCA action&quot; button at the branch level. It will then verify and create a record of the SCA review history.</description>
+    <environments>Default</environments>
+    <interviewLabel>s {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SCA Review Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <description>Work: W-000065
+Summary: Create SCA Review History record withe SCA integration Status as Pending</description>
+        <name>Create_SCA_Review_History_Record</name>
+        <label>Create SCA Review History Record</label>
+        <locationX>842</locationX>
+        <locationY>566</locationY>
+        <connector>
+            <targetReference>Update_Is_SCA_Passed</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Branch__c</field>
+            <value>
+                <elementReference>Get_Current_Branch_Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>SCA_Integration_Status__c</field>
+            <value>
+                <stringValue>Pending</stringValue>
+            </value>
+        </inputAssignments>
+        <object>SCA_Review_History__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <description>Work: W-000065
+Summary: get the current Branch details</description>
+        <name>Get_Current_Branch_Record</name>
+        <label>Get Current Branch Record</label>
+        <locationX>446</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_latest_SCA_Review_History_Record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Flosum__Branch__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Work: W-000065
+Summary: get the latest metadata log record</description>
+        <name>Get_Latest_Flosum_Metadata_Log_Record</name>
+        <label>Get Latest Flosum Metadata Log Record</label>
+        <locationX>446</locationX>
+        <locationY>350</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Verify_the_SCA_Review_History_Integration_Status</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Flosum__Branch__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Current_Branch_Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Flosum__Metadata_Log__c</object>
+        <sortField>Name</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Work: W-000065
+Summary: get the latest SCA Review History record associated with the current branch</description>
+        <name>Get_latest_SCA_Review_History_Record</name>
+        <label>Get latest SCA Review History Record</label>
+        <locationX>446</locationX>
+        <locationY>242</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Latest_Flosum_Metadata_Log_Record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Branch__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Current_Branch_Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>SCA_Review_History__c</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <description>Work: W-000281
+Summary: Update Is SCA Passed checkbox to false whenever new SCA Review history record is created.</description>
+        <name>Update_Is_SCA_Passed</name>
+        <label>Update Is SCA Passed</label>
+        <locationX>842</locationX>
+        <locationY>674</locationY>
+        <connector>
+            <targetReference>SCA_History_Record_Created</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Current_Branch_Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Is_SCA_Passed__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Is_SCA_Passed__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Flosum__Branch__c</object>
+    </recordUpdates>
+    <screens>
+        <description>Work: W-000065
+Summary: Notify the user if the branch does not contain any Apex Code.</description>
+        <name>Does_not_have_Apex_Component</name>
+        <label>Does not have Apex Component</label>
+        <locationX>50</locationX>
+        <locationY>566</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>False_Has_Apex_Code</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(228, 8, 8);&quot;&gt;{!$Label.Does_not_has_apex_code}&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <nextOrFinishButtonLabel>Done</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <description>Work: W-000065
+Summary: Notify the user if the SCA record is created</description>
+        <name>SCA_History_Record_Created</name>
+        <label>SCA History Record Created</label>
+        <locationX>842</locationX>
+        <locationY>782</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>SCA_Review_Record_Success</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(5, 147, 47);&quot;&gt;{!$Label.SCA_Review_History_record_Created}&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <nextOrFinishButtonLabel>Done</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <description>Work: W-000065
+Summary: Notify the user if the SCA is in progress</description>
+        <name>SCA_is_still_in_Progress</name>
+        <label>SCA is still in Progress</label>
+        <locationX>578</locationX>
+        <locationY>566</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>SCA_is_in_Progress</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(211, 6, 6);&quot;&gt;{!$Label.SCA_in_Progress}&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <nextOrFinishButtonLabel>Done</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <description>Work: W-000065
+Summary: Notify the user if the validation is not completed.</description>
+        <name>Validation_Error</name>
+        <label>Validation Error</label>
+        <locationX>314</locationX>
+        <locationY>566</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Validation_is_Not_Completed1</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(237, 9, 9);&quot;&gt;{!$Label.SCA_Validation_Error}&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <nextOrFinishButtonLabel>Done</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Current_Branch_Record</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>Id of the branch record</description>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

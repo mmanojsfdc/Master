@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Count --></label>
+        <name>orgprofile__Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provides Guidance on how to interpret the information on the profile and what information to enter in case the profile information needs manual inputs (Manual flag is checked) --></help>
+        <label><!-- Guidance --></label>
+        <name>orgprofile__Guidance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Reviewed Date --></label>
+        <name>orgprofile__Last_Reviewed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, indicates that the profile is manually updated by the user --></help>
+        <label><!-- Manual --></label>
+        <name>orgprofile__Manual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Profile --></label>
+        <name>orgprofile__Org_Profile__c</name>
+        <relationshipLabel><!-- Governance Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>orgprofile__Type__c</name>
+        <picklistValues>
+            <masterLabel>Application Lifecycle Toolset</masterLabel>
+            <translation><!-- Application Lifecycle Toolset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automated Regression Testing</masterLabel>
+            <translation><!-- Automated Regression Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup Strategy</masterLabel>
+            <translation><!-- Backup Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Management Strategy</masterLabel>
+            <translation><!-- Change Management Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment Tool - Change Sets/Ant/AppExchange</masterLabel>
+            <translation><!-- Deployment Tool - Change Sets/Ant/AppExchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environment Strategy</masterLabel>
+            <translation><!-- Environment Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installed Packages</masterLabel>
+            <translation><!-- Installed Packages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce DX</masterLabel>
+            <translation><!-- Salesforce DX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandboxes</masterLabel>
+            <translation><!-- Sandboxes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Source Control</masterLabel>
+            <translation><!-- Source Control --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Utilized? --></label>
+        <name>orgprofile__Utilized__c</name>
+    </fields>
+    <layouts>
+        <layout>Governance Profile Layout</layout>
+        <sections>
+            <label><!-- Guidance --></label>
+            <section>Guidance</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

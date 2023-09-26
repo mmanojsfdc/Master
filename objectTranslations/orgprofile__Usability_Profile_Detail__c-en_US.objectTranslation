@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Community URL --></label>
+        <name>orgprofile__Community_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Classification --></label>
+        <name>orgprofile__Data_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External OWD --></label>
+        <name>orgprofile__External_OWD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal OWD --></label>
+        <name>orgprofile__Internal_OWD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>orgprofile__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namespace --></label>
+        <name>orgprofile__Namespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Count --></label>
+        <name>orgprofile__Record_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relevant to communities feature usage metric, used to create the community url --></help>
+        <label><!-- SubDomain --></label>
+        <name>orgprofile__SubDomain__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relevant for communities feature usage metric, used to create the community url --></help>
+        <label><!-- Url Path Prefix --></label>
+        <name>orgprofile__Url_Path_Prefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feature Usage Profile --></label>
+        <name>orgprofile__Usability_Profile__c</name>
+        <relationshipLabel><!-- Feature Usage Profile Details --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

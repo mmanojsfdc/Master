@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CIDR --></label>
+        <name>sectools__CIDR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>sectools__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- End IP Address --></label>
+        <name>sectools__End_IP_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>sectools__External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive --></label>
+        <name>sectools__Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>sectools__Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>sectools__Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start IP Addresss --></label>
+        <name>sectools__Start_IP_Addresss__c</name>
+    </fields>
+</CustomObjectTranslation>

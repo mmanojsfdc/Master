@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Api Version --></label>
+        <name>orgprofile__Api_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aura Enabled --></label>
+        <name>orgprofile__Aura_Enabled__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Code Coverage --></label>
+        <name>orgprofile__Code_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count --></label>
+        <name>orgprofile__Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Development Profile --></label>
+        <name>orgprofile__Development_Profile__c</name>
+        <relationshipLabel><!-- Customization Profile Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guest User Access --></label>
+        <name>orgprofile__Guest_User_Access__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>orgprofile__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namespace --></label>
+        <name>orgprofile__Namespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sharing Model --></label>
+        <name>orgprofile__Sharing_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Access Modifier --></label>
+        <name>orgprofile__access_modifier__c</name>
+    </fields>
+</CustomObjectTranslation>

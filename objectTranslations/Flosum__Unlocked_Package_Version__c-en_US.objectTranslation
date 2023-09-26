@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Installation Key --></label>
+        <name>Flosum__Installation_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installation URL --></label>
+        <name>Flosum__Installation_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Id --></label>
+        <name>Flosum__Package_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Flosum__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unlocked Package --></label>
+        <name>Flosum__Unlocked_Package__c</name>
+        <relationshipLabel><!-- Unlocked Package Versions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Version Description --></label>
+        <name>Flosum__Version_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Number --></label>
+        <name>Flosum__Version_Number__c</name>
+    </fields>
+    <layouts>
+        <layout>Unlocked Package Version Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

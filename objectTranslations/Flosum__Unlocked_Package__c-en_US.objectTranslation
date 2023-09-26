@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Flosum__Branch__c</name>
+        <relationshipLabel><!-- Unlocked Package --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deployment --></label>
+        <name>Flosum__Deployment__c</name>
+        <relationshipLabel><!-- Unlocked Package --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Flosum__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Version --></label>
+        <name>Flosum__Last_Version__c</name>
+        <relationshipLabel><!-- Unlocked Package --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Package Id --></label>
+        <name>Flosum__Package_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDX Project JSON --></label>
+        <name>Flosum__SFDX_Project_JSON__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Object Name --></label>
+        <name>Flosum__Source_Object_Name__c</name>
+        <picklistValues>
+            <masterLabel>Branch</masterLabel>
+            <translation><!-- Branch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Flosum__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Unlocked Package Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Create_New_Version --></label>
+        <name>Flosum__Create_New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_SFDX_Project_JSON --></label>
+        <name>Flosum__Edit_SFDX_Project_JSON</name>
+    </webLinks>
+</CustomObjectTranslation>

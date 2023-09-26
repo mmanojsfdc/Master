@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <listViews>
+        <fullName>RE_Team_Organisation</fullName>
+        <filterScope>Queue</filterScope>
+        <label>RE Team</label>
+        <queue>RE_Team</queue>
+        <sharedTo>
+            <allInternalUsers/>
+        </sharedTo>
+    </listViews>
+</CustomObject>

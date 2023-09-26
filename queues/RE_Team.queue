@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>RE Team</name>
+    <queueMembers>
+        <users>
+            <user>aasmitha@google.com.capedevops</user>
+            <user>singamrita@google.com.capedevops</user>
+            <user>giteshkumar@google.com.com.capedevops</user>
+            <user>mullapudim@google.com.capedevops</user>
+            <user>rratakonda@google.com.capedevops</user>
+            <user>shg_relengg_team@google.com.capedevops</user>
+            <user>souradeepp@google.com.capedevops</user>
+            <user>skutty@google.com.capedevops</user>
+            <user>vchinnam@google.com.capedevops</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Flosum__Organisation__c</sobjectType>
+    </queueSobject>
+</Queue>

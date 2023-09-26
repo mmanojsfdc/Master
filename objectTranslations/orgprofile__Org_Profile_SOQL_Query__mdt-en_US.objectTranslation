@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active (Not used) --></label>
+        <name>orgprofile__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- CountQuery --></label>
+        <name>orgprofile__CountQuery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- specify the exception message that is put in description for the respective Profile when the SOQL execution results in an exception --></help>
+        <label><!-- Exception Message --></label>
+        <name>orgprofile__Exception_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provides guidance to the user on how to interpret the associated metric and enter the information --></help>
+        <label><!-- Guidance --></label>
+        <name>orgprofile__Guidance__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>orgprofile__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that only the top level profile will be generated but not populated with the expectation that data will be manually entered --></help>
+        <label><!-- Manual --></label>
+        <name>orgprofile__Manual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>orgprofile__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Class --></label>
+        <name>orgprofile__Profile_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Count Utilized Threshold --></label>
+        <name>orgprofile__Record_Count_Utilized_Threshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query --></label>
+        <name>orgprofile__SOQL_Query__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tooling --></label>
+        <name>orgprofile__Tooling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>orgprofile__Type__c</name>
+    </fields>
+    <layouts>
+        <layout>Org Profile SOQL Query Layout</layout>
+        <sections>
+            <label><!-- Guidance --></label>
+            <section>Guidance</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

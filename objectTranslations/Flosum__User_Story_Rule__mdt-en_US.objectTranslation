@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Failed Value --></label>
+        <name>Flosum__Failed_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field API --></label>
+        <name>Flosum__Field_API__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>Flosum__Operation__c</name>
+        <picklistValues>
+            <masterLabel>After Deploy</masterLabel>
+            <translation><!-- After Deploy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Organization ID --></label>
+        <name>Flosum__Organization_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Value --></label>
+        <name>Flosum__Success_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Story Objects --></label>
+        <name>Flosum__User_Story_Objects__c</name>
+        <relationshipLabel><!-- User Story Rules --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>User Story Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

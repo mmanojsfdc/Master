@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Deployment Request Id --></label>
+        <name>Flosum__Async_Request_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment Id --></label>
+        <name>Flosum__Attachment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Job Id --></label>
+        <name>Flosum__Batch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Flosum__Branch__c</name>
+        <relationshipLabel><!-- Metadata Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Build --></label>
+        <name>Flosum__Build__c</name>
+        <relationshipLabel><!-- Metadata Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Code Coverage --></label>
+        <name>Flosum__Code_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Flosum__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment Date --></label>
+        <name>Flosum__Deployment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment Name --></label>
+        <name>Flosum__Deployment_Name_Generate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment Name --></label>
+        <name>Flosum__Deployment_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Log --></label>
+        <name>Flosum__Error_Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execute Apex --></label>
+        <name>Flosum__Execute_Apex__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Error? --></label>
+        <name>Flosum__Is_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Vlocity --></label>
+        <name>Flosum__Is_Vlocity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Completed? --></label>
+        <name>Flosum__Job_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metadata Types --></label>
+        <name>Flosum__Metadata_Types__c</name>
+    </fields>
+    <fields>
+        <label><!-- Options --></label>
+        <name>Flosum__Options__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Flosum__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization --></label>
+        <name>Flosum__Organisation__c</name>
+        <relationshipLabel><!-- Metadata Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deployment --></label>
+        <name>Flosum__Patch__c</name>
+        <relationshipLabel><!-- Metadata Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PipelineStepId --></label>
+        <name>Flosum__PipelineStepId__c</name>
+        <relationshipLabel><!-- Metadata Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Specified Tests --></label>
+        <name>Flosum__Process_Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Type --></label>
+        <name>Flosum__Process_Type__c</name>
+        <picklistValues>
+            <masterLabel>AccelQ</masterLabel>
+            <translation><!-- AccelQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Org Data</masterLabel>
+            <translation><!-- Clean Org Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install Vlocity Initial</masterLabel>
+            <translation><!-- Install Vlocity Initial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pack Retry (Heroku)</masterLabel>
+            <translation><!-- Pack Retry (Heroku) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patch</masterLabel>
+            <translation><!-- Patch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retrieve</masterLabel>
+            <translation><!-- Retrieve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollback (Deployment)</masterLabel>
+            <translation><!-- Rollback (Deployment) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollback (Validate)</masterLabel>
+            <translation><!-- Rollback (Validate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Deployment</masterLabel>
+            <translation><!-- Schedule Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Execution</masterLabel>
+            <translation><!-- Test Execution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Execution Job</masterLabel>
+            <translation><!-- Test Execution Job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tracking Organization - Retrieve</masterLabel>
+            <translation><!-- Tracking Organization - Retrieve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validate</masterLabel>
+            <translation><!-- Validate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>Flosum__Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Run Test Param --></label>
+        <name>Flosum__Run_Test_Param__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Time --></label>
+        <name>Flosum__Schedule_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Snapshot Vlocity --></label>
+        <name>Flosum__Snapshot_Vlocity__c</name>
+        <relationshipLabel><!-- Metadata Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Snapshot --></label>
+        <name>Flosum__Snapshot__c</name>
+        <relationshipLabel><!-- Metadata Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Branch --></label>
+        <name>Flosum__Source_Branch__c</name>
+        <relationshipLabel><!-- Metadata Logs (Source Branch) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Flosum__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Flosum__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation><!-- Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Completed</masterLabel>
+            <translation><!-- Partial Completed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Succeed? --></label>
+        <name>Flosum__Succeed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Log --></label>
+        <name>Flosum__Success_Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Items --></label>
+        <name>Flosum__Total_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Setting --></label>
+        <name>Flosum__Tracking_Setting__c</name>
+        <relationshipLabel><!-- Metadata Logs --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Validate --></label>
+        <name>Flosum__Validate</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Deploy --></label>
+        <name>Flosum__Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Impact_Analysis_MetadataLog --></label>
+        <name>Flosum__Impact_Analysis_MetadataLog</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quick_Deploy --></label>
+        <name>Flosum__Quick_Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Retrieve_Logs --></label>
+        <name>Flosum__Retrieve_Logs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rollback --></label>
+        <name>Flosum__Rollback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Validate --></label>
+        <name>Flosum__Validate</name>
+    </webLinks>
+</CustomObjectTranslation>

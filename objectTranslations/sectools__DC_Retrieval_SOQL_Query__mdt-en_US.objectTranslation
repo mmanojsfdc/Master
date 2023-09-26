@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>sectools__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>sectools__Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>sectools__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL --></label>
+        <name>sectools__SOQL__c</name>
+    </fields>
+</CustomObjectTranslation>

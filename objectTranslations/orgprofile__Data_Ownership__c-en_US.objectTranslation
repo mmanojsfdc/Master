@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feature Usage Profile Detail --></label>
+        <name>orgprofile__Feature_Usage_Profile_Detail__c</name>
+        <relationshipLabel><!-- Data Ownerships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>orgprofile__Object_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Salesforce Id of the Owner who owns the records --></help>
+        <label><!-- Owner ID --></label>
+        <name>orgprofile__Owner_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Full Name of the Owner --></help>
+        <label><!-- Owner Name --></label>
+        <name>orgprofile__Owner_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Salesforce Username of the records owner --></help>
+        <label><!-- Owner Username --></label>
+        <name>orgprofile__Owner_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records Owned --></label>
+        <name>orgprofile__Records_Owned__c</name>
+    </fields>
+</CustomObjectTranslation>

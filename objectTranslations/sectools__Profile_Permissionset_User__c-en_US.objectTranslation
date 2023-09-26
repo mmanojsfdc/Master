@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Profile/Permission --></label>
+        <name>sectools__Profile_Permission__c</name>
+        <relationshipLabel><!-- Profile Permissionset Users --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>sectools__User__c</name>
+        <relationshipLabel><!-- Profile Permissionset Users --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

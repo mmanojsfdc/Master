@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active (Not used) --></label>
+        <name>orgprofile__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>orgprofile__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>orgprofile__Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>orgprofile__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL --></label>
+        <name>orgprofile__SOQL__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Available Licenses --></label>
+        <name>orgprofile__Available_Licenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumption Profile --></label>
+        <name>orgprofile__Consumption_Profile__c</name>
+        <relationshipLabel><!-- Consumption Profile Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>orgprofile__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Used Licenses --></label>
+        <name>orgprofile__Used_Licenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization --></label>
+        <name>orgprofile__Utilization__c</name>
+    </fields>
+</CustomObjectTranslation>

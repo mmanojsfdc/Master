@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>Flosum__Component_Name2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>Flosum__Component_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Type --></label>
+        <name>Flosum__Component_Type__c</name>
+        <picklistValues>
+            <masterLabel>ApexClass</masterLabel>
+            <translation><!-- ApexClass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Component --></label>
+        <name>Flosum__Component__c</name>
+        <relationshipLabel><!-- Destructive Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>Flosum__File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metadata Item --></label>
+        <name>Flosum__Metadata_Item__c</name>
+        <relationshipLabel><!-- Destructive Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deployment --></label>
+        <name>Flosum__Patch__c</name>
+        <relationshipLabel><!-- Destructive Changes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Post Deployment Change --></label>
+        <name>Flosum__Post_Deployment_Change__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Add_Post_Destructive_Changes --></label>
+        <name>Flosum__Add_Post_Destructive_Changes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_Pre_Destructive_Changes --></label>
+        <name>Flosum__Add_Pre_Destructive_Changes</name>
+    </webLinks>
+</CustomObjectTranslation>

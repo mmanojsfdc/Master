@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- DC Failure Notification Email --></label>
+        <name>sectools__DC_Failure_Notification_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC Retrieval Interval (mins) --></label>
+        <name>sectools__DC_Retrieval_Interval_mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC query --></label>
+        <name>sectools__DC_query__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC restEndPoint --></label>
+        <name>sectools__DC_restEndPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC tokenRevokeUrl --></label>
+        <name>sectools__DC_tokenRevokeUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- DC toolingEndPoint --></label>
+        <name>sectools__DC_toolingEndPoint__c</name>
+    </fields>
+</CustomObjectTranslation>

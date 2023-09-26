@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Average Execution Time (ms) --></label>
+        <name>orgprofile__Average_Execution_Time_ms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provides Guidance on how to interpret the information on the profile and what information to enter in case the profile information needs manual inputs (Manual flag is checked) --></help>
+        <label><!-- Guidance --></label>
+        <name>orgprofile__Guidance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Reviewed Date --></label>
+        <name>orgprofile__Last_Reviewed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Duration Unit --></label>
+        <name>orgprofile__Log_Duration_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Log Duration --></label>
+        <name>orgprofile__Log_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, indicates that the profile is manually updated by the user --></help>
+        <label><!-- Manual --></label>
+        <name>orgprofile__Manual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Profile --></label>
+        <name>orgprofile__Org_Profile__c</name>
+        <relationshipLabel><!-- Performance Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>orgprofile__Type__c</name>
+        <picklistValues>
+            <masterLabel>Apex Performance</masterLabel>
+            <translation><!-- Apex Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BULK API Performance</masterLabel>
+            <translation><!-- BULK API Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dashboard Performance</masterLabel>
+            <translation><!-- Dashboard Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Page Performance</masterLabel>
+            <translation><!-- Lightning Page Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REST API Performance</masterLabel>
+            <translation><!-- REST API Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports Performance</masterLabel>
+            <translation><!-- Reports Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOAP API Performance</masterLabel>
+            <translation><!-- SOAP API Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VF Pages Performance</masterLabel>
+            <translation><!-- VF Pages Performance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Utilized? --></label>
+        <name>orgprofile__Utilized__c</name>
+    </fields>
+    <fields>
+        <label><!-- 90% Execution Time (ms) --></label>
+        <name>orgprofile__X90pct_Execution_Time_ms__c</name>
+    </fields>
+    <layouts>
+        <layout>Performance Profile Layout</layout>
+        <sections>
+            <label><!-- Guidance --></label>
+            <section>Guidance</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>Flosum__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Flosum__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Story Id --></label>
+        <name>Flosum__Story_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Story Name --></label>
+        <name>Flosum__Story_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Flosum__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Flosum__Type__c</name>
+        <picklistValues>
+            <masterLabel>Agile Work</masterLabel>
+            <translation><!-- Agile Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Object</masterLabel>
+            <translation><!-- Custom Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIRA</masterLabel>
+            <translation><!-- JIRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Now</masterLabel>
+            <translation><!-- Service Now --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Master Story Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

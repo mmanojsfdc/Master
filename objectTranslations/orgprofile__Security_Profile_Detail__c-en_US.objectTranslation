@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Applicable to Profiles, indicates if its a custom profile --></help>
+        <label><!-- Custom --></label>
+        <name>orgprofile__Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has IP Ranges --></label>
+        <name>orgprofile__Has_IP_Ranges__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable to SSO Configuration, stores the identity provider for the configuration --></help>
+        <label><!-- Identity Provider --></label>
+        <name>orgprofile__Identity_Provider__c</name>
+    </fields>
+    <fields>
+        <label><!-- License --></label>
+        <name>orgprofile__License__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>orgprofile__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Value --></label>
+        <name>orgprofile__Org_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable to Health Check Risks, indicates the risk category for non-compliant items --></help>
+        <label><!-- Risk Category --></label>
+        <name>orgprofile__Risk_Category__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable to Health Check Risks, indicates the risk category for non-compliant items --></help>
+        <label><!-- Security Indicator --></label>
+        <name>orgprofile__Security_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security Profile --></label>
+        <name>orgprofile__Security_Profile__c</name>
+        <relationshipLabel><!-- Security Profile Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Standard Value --></label>
+        <name>orgprofile__Standard_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable to SSO Configuration, indicates if user provisioning is enabled for the SSO configuration --></help>
+        <label><!-- User Provisioning --></label>
+        <name>orgprofile__User_Provisioning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Users Count --></label>
+        <name>orgprofile__Users_Count__c</name>
+    </fields>
+    <layouts>
+        <layout>Security Profile Detail Layout</layout>
+        <sections>
+            <label><!-- Health Check --></label>
+            <section>Health Check</section>
+        </sections>
+        <sections>
+            <label><!-- Profiles/Permission Sets/Roles Info --></label>
+            <section>Profiles/Permission Sets/Roles Info</section>
+        </sections>
+        <sections>
+            <label><!-- SAML SSO Configuration --></label>
+            <section>SAML SSO Configuration</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

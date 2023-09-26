@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Flosum__Branch__c</name>
+        <relationshipLabel><!-- Review Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Flosum__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issues --></label>
+        <name>Flosum__Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Job --></label>
+        <name>Flosum__Review_Job__c</name>
+        <relationshipLabel><!-- Review Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>Flosum__State__c</name>
+        <picklistValues>
+            <masterLabel>CANCELED</masterLabel>
+            <translation><!-- CANCELED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETED</masterLabel>
+            <translation><!-- COMPLETED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN PROGRESS</masterLabel>
+            <translation><!-- IN PROGRESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUEUED</masterLabel>
+            <translation><!-- QUEUED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- isLatest --></label>
+        <name>Flosum__isLatest__c</name>
+    </fields>
+</CustomObjectTranslation>
