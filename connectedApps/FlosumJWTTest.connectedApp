@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>vchinnam@google.com</contactEmail>
+    <label>FlosumJWTTest</label>
+    <oauthConfig>
+        <callbackUrl>https://capedevops--flosumpoc.sandbox.lightning.force.com/</callbackUrl>
+        <certificate>MIIDuzCCAqMCFBqDDv/Jr8EiP5xgPDgx9X4RWwYVMA0GCSqGSIb3DQEBCwUAMIGZMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzETMBEGA1UECgwKR29vZ2xlIExMQzENMAsGA1UECwwEQ0FQRTENMAsGA1UEAwwEQ0FQRTEqMCgGCSqGSIb3DQEJARYbc2hnX3JlbGVuZ2dfdGVhbUBnb29nbGUuY29tMB4XDTIzMDkxODIyMjUwOVoXDTI0MDkxNzIyMjUwOVowgZkxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1Nb3VudGFpbiBWaWV3MRMwEQYDVQQKDApHb29nbGUgTExDMQ0wCwYDVQQLDARDQVBFMQ0wCwYDVQQDDARDQVBFMSowKAYJKoZIhvcNAQkBFhtzaGdfcmVsZW5nZ190ZWFtQGdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5WwHNCfXEu1rVYNmRRGoZRwOrl+0PXz1+CECKJBgpYpvyJgYaxjUPyOhf6nj2vSHl9R7/bWzPhlfIQm1FT9qNN6d6wqLOjevtOjwGxotZa7yaiv3e1oHiiOm4emM38UYxL4n8PAmKATKYMEKsy2jTnv/RIGZzBj3xX3GH2SOlo0kJx9J2Xu85DWzhMu8A5JNf3GkRonqf6YCZ/D6+EbreHb9YWaZA2eNQCG0kzEGdOu+FmAyvzNLi6Nsf7yPV5EaW79h8vrNHBsewDTNBhJYav0cHyS0m9tzoA6p+YGIhXAFf/jIsw7zAWk7uIglNb731L3pwAbanDQm05g7sk6SJAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFpuP9VzlPiLVPu1A+ZtY3HGplnETvelMzq28wwGFCncTJM4v1LReJuUG05/8dln1wybZewHnd6gFWBqaQzEMBBKH4Vln94/G8iUX/dJ6cjDA4/yUvwwCZ11u8p5ERicaNLo3B2oZNJlefaWA184doxQwrXR0LNCyUq7xocIFai/XXS4VZhvZ7tbI4DP6cJf8vCerpY4x26YJDTMOzwBZM1lIpMi12VKhJ21oCtbEejOt1Saw/cTsU9P0cQ+KKlczzMewmjThFERzBPsS7bJh03pi8AyV3QwPXQA3lybQ0ormk7BhbPWpGcM6NMxy/6KLbEIDlyinzuHq3syZk7iZOE=</certificate>
+        <consumerKey>3MVG9teL341d2zQBV779SDUwV.B_fIei4TwsObl.ht1v.rOK3pCd9Mv0yE8hW3KlhVv5JUs5r18T3_LFJuAiA</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Minimum Access - Salesforce</profileName>
+    <profileName>System Administrator</profileName>
+    <sessionPolicy>
+        <sessionTimeout>0</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>
