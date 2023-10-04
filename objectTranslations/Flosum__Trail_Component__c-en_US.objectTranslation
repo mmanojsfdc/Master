@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Flosum__Branch__c</name>
+        <relationshipLabel><!-- Trail Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Changed By --></label>
+        <name>Flosum__Changed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed On --></label>
+        <name>Flosum__Changed_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component History --></label>
+        <name>Flosum__Component_History__c</name>
+        <relationshipLabel><!-- Trail Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>Flosum__Component_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Type --></label>
+        <name>Flosum__Component_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployed By --></label>
+        <name>Flosum__Deployed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>Flosum__File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Reconciled --></label>
+        <name>Flosum__Is_Reconciled__c</name>
+    </fields>
+    <fields>
+        <label><!-- ParentOrg --></label>
+        <name>Flosum__ParentOrg__c</name>
+        <relationshipLabel><!-- Audit Trail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deployment --></label>
+        <name>Flosum__Patch__c</name>
+        <relationshipLabel><!-- Trail Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reconciled --></label>
+        <name>Flosum__Reconciled__c</name>
+        <picklistValues>
+            <masterLabel>Automated</masterLabel>
+            <translation><!-- Automated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Story Details --></label>
+        <name>Flosum__Story_Details__c</name>
+    </fields>
+    <layouts>
+        <layout>Trail Component Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Retrieve_Changes --></label>
+        <name>Flosum__Retrieve_Changes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Schedule_Audit --></label>
+        <name>Flosum__Schedule_Audit</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Flosum__BranchId__c</name>
+        <relationshipLabel><!-- Jobs (Branch) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Flosum__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>Flosum__Job_Type__c</name>
+        <picklistValues>
+            <masterLabel>BUILD</masterLabel>
+            <translation><!-- BUILD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REVIEW</masterLabel>
+            <translation><!-- REVIEW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYNC</masterLabel>
+            <translation><!-- SYNC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lock --></label>
+        <name>Flosum__Lock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameters --></label>
+        <name>Flosum__Parameters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment --></label>
+        <name>Flosum__PatchId__c</name>
+        <relationshipLabel><!-- Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Flosum__Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repository --></label>
+        <name>Flosum__RepositoryId__c</name>
+        <relationshipLabel><!-- Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>Flosum__Result_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- ReviewJob --></label>
+        <name>Flosum__ReviewJob__c</name>
+        <relationshipLabel><!-- Code Analysis --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of issues --></label>
+        <name>Flosum__Review_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>Flosum__State__c</name>
+        <picklistValues>
+            <masterLabel>CANCELED</masterLabel>
+            <translation><!-- CANCELED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETED</masterLabel>
+            <translation><!-- COMPLETED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN PROGRESS</masterLabel>
+            <translation><!-- IN PROGRESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUEUED</masterLabel>
+            <translation><!-- QUEUED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WAIT REVIEW</masterLabel>
+            <translation><!-- WAIT REVIEW --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sync Job --></label>
+        <name>Flosum__SyncId__c</name>
+        <relationshipLabel><!-- Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Flosum__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- jobId --></label>
+        <name>Flosum__jobId__c</name>
+    </fields>
+    <layouts>
+        <layout>Flosum Task Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

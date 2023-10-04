@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Available Licenses --></label>
+        <name>orgprofile__Available_Licenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provides Guidance on how to interpret the information on the profile and what information to enter in case the profile information needs manual inputs (Manual flag is checked) --></help>
+        <label><!-- Guidance --></label>
+        <name>orgprofile__Guidance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Reviewed Date --></label>
+        <name>orgprofile__Last_Reviewed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, indicates that the profile is manually updated by the user --></help>
+        <label><!-- Manual --></label>
+        <name>orgprofile__Manual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Profile --></label>
+        <name>orgprofile__Org_Profile__c</name>
+        <relationshipLabel><!-- Consumption Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>orgprofile__Type__c</name>
+        <picklistValues>
+            <masterLabel>Company Community License Usage</masterLabel>
+            <translation><!-- Company Community License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Community License Usage</masterLabel>
+            <translation><!-- Customer Community License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Community Plus License Usage</masterLabel>
+            <translation><!-- Customer Community Plus License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature License Usage</masterLabel>
+            <translation><!-- Feature License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity License Usage</masterLabel>
+            <translation><!-- Identity License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package License Usage</masterLabel>
+            <translation><!-- Package License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Community License Usage</masterLabel>
+            <translation><!-- Partner Community License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PermissionSet License Usage</masterLabel>
+            <translation><!-- PermissionSet License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform Cloud License Usage</masterLabel>
+            <translation><!-- Platform Cloud License Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce License Usage</masterLabel>
+            <translation><!-- Salesforce License Usage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Used Licenses --></label>
+        <name>orgprofile__Used_Licenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization --></label>
+        <name>orgprofile__Utilization__c</name>
+    </fields>
+    <layouts>
+        <layout>Consumption Profile Layout</layout>
+        <sections>
+            <label><!-- Guidance --></label>
+            <section>Guidance</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

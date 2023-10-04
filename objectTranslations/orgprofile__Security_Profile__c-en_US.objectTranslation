@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Count --></label>
+        <name>orgprofile__Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Profiles/Perm Sets with No Users --></label>
+        <name>orgprofile__Custom_Profiles_Perm_Sets_with_No_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rollup Count of the detail object --></help>
+        <label><!-- Count --></label>
+        <name>orgprofile__DetailCount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable for Security Settings such as SAML SSO Configuration etc. The value is automatically set by a workflow if detail records are present. --></help>
+        <label><!-- Enabled --></label>
+        <name>orgprofile__Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provides Guidance on how to interpret the information on the profile and what information to enter in case the profile information needs manual inputs (Manual flag is checked) --></help>
+        <label><!-- Guidance --></label>
+        <name>orgprofile__Guidance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable only for the Health Check --></help>
+        <label><!-- Health Check Score --></label>
+        <name>orgprofile__Health_Check_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Reviewed Date --></label>
+        <name>orgprofile__Last_Reviewed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, indicates that the profile is manually updated by the user --></help>
+        <label><!-- Manual --></label>
+        <name>orgprofile__Manual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Profile --></label>
+        <name>orgprofile__Org_Profile__c</name>
+        <relationshipLabel><!-- Security Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>orgprofile__Type__c</name>
+        <picklistValues>
+            <masterLabel>Health Check</masterLabel>
+            <translation><!-- Health Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permission Sets</masterLabel>
+            <translation><!-- Permission Sets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profiles</masterLabel>
+            <translation><!-- Profiles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roles</masterLabel>
+            <translation><!-- Roles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAML SSO Configurations</masterLabel>
+            <translation><!-- SAML SSO Configurations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trusted IP Ranges</masterLabel>
+            <translation><!-- Trusted IP Ranges --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Security Profile Layout</layout>
+        <sections>
+            <label><!-- Guidance --></label>
+            <section>Guidance</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

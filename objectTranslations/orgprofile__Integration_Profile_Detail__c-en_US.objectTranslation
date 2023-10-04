@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AdminApproved --></label>
+        <name>orgprofile__AdminApproved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Endpoint --></label>
+        <name>orgprofile__Endpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Profile --></label>
+        <name>orgprofile__Integration_Profile__c</name>
+        <relationshipLabel><!-- Integration Profile Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>orgprofile__Name__c</name>
+    </fields>
+</CustomObjectTranslation>

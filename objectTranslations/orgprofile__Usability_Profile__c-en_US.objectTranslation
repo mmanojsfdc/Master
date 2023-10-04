@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Bypass Utilized Flow --></label>
+        <name>orgprofile__Bypass_Utilized_Flow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count --></label>
+        <name>orgprofile__Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provides Guidance on how to interpret the information on the profile and what information to enter in case the profile information needs manual inputs (Manual flag is checked) --></help>
+        <label><!-- Guidance --></label>
+        <name>orgprofile__Guidance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Reviewed Date --></label>
+        <name>orgprofile__Last_Reviewed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual --></label>
+        <name>orgprofile__Manual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Profile --></label>
+        <name>orgprofile__Org_Profile__c</name>
+        <relationshipLabel><!-- Feature Usage Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RecordCount --></label>
+        <name>orgprofile__RecordCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>orgprofile__Type__c</name>
+        <picklistValues>
+            <masterLabel>Accounts</masterLabel>
+            <translation><!-- Accounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Objects</masterLabel>
+            <translation><!-- Big Objects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Callcenter</masterLabel>
+            <translation><!-- Callcenter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cases</masterLabel>
+            <translation><!-- Cases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatter Posts in 30 days</masterLabel>
+            <translation><!-- Chatter Posts in 30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communities</masterLabel>
+            <translation><!-- Communities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacts</masterLabel>
+            <translation><!-- Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature Usage - Einstein Analytics</masterLabel>
+            <translation><!-- Feature Usage - Einstein Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature Usage - Knowledge</masterLabel>
+            <translation><!-- Feature Usage - Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature Usage - Live Agent</masterLabel>
+            <translation><!-- Feature Usage - Live Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature Usage - Omni Channel</masterLabel>
+            <translation><!-- Feature Usage - Omni Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leads</masterLabel>
+            <translation><!-- Leads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunities</masterLabel>
+            <translation><!-- Opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform Events</masterLabel>
+            <translation><!-- Platform Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Objects</masterLabel>
+            <translation><!-- Salesforce Objects --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Utilized? --></label>
+        <name>orgprofile__Utilized__c</name>
+    </fields>
+    <layouts>
+        <layout>Feature Usage Profile Layout</layout>
+        <sections>
+            <label><!-- Guidance --></label>
+            <section>Guidance</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

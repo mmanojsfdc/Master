@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Flosum__Approval_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Flosum__Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peer Review --></label>
+        <name>Flosum__Pull_Request__c</name>
+        <relationshipLabel><!-- Peer Reviewers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reviewer --></label>
+        <name>Flosum__Reviewer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Flosum__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reviewer --></label>
+        <name>Flosum__User__c</name>
+        <relationshipLabel><!-- Peer Reviewers --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Pull Request Reviewer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

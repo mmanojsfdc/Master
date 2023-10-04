@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>sectools__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>sectools__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Permission Unique Id --></label>
+        <name>sectools__Field_Permission_Unique_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Field Classification --></label>
+        <name>sectools__Object_Field_Classification__c</name>
+        <relationshipLabel><!-- Field Classification Permissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Permission Type --></label>
+        <name>sectools__Permission_Type__c</name>
+        <picklistValues>
+            <masterLabel>Read</masterLabel>
+            <translation><!-- Read --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write</masterLabel>
+            <translation><!-- Write --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Profile Id/Permission Set Id --></label>
+        <name>sectools__Profile_Id_Permission_Set_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile/Permission Set Name --></label>
+        <name>sectools__Profile_Permission_Set_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile/Permission --></label>
+        <name>sectools__Profile_Permission__c</name>
+        <relationshipLabel><!-- Field Classification Permissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- # of Users --></label>
+        <name>sectools__of_Users__c</name>
+    </fields>
+</CustomObjectTranslation>

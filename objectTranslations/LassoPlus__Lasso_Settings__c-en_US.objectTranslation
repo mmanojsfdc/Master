@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Set this field to TRUE if you want an inactive user found using the username match to be automatically activated upon the first login attempt. The default is checked. --></help>
+        <label><!-- Activate User --></label>
+        <name>LassoPlus__Activate_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set this value to your company&apos;s email domain. The default value is google.com --></help>
+        <label><!-- Email Domain --></label>
+        <name>LassoPlus__Email_Domain__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the usernames in your org are like the email address + a suffix you can specify the suffix here. E.g. if the usernames look like alex@company.com.sfdc you would enter .sfdc here. --></help>
+        <label><!-- Email-to-Username-Suffix --></label>
+        <name>LassoPlus__Email_to_Username_Suffix__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this setting to disallow SAML based users from logging in with OAuth OIDC Auth mechanism --></help>
+        <label><!-- SAML Only Check Enabled --></label>
+        <name>LassoPlus__SAML_Only_Check_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the value to TRUE if you want the user&apos;s Salesforce email to be automatically updated to the email address returned by the Google Apps. The default is checked. --></help>
+        <label><!-- Update Email --></label>
+        <name>LassoPlus__Update_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- additional_customMsg --></label>
+        <name>LassoPlus__additional_customMsg__c</name>
+    </fields>
+</CustomObjectTranslation>

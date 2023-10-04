@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AccelQ Test --></label>
+        <name>Flosum__AccelQ_Test__c</name>
+        <relationshipLabel><!-- Branches --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Branch Description --></label>
+        <name>Flosum__Branch_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch Name --></label>
+        <name>Flosum__Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch Type --></label>
+        <name>Flosum__Branch_Type__c</name>
+        <picklistValues>
+            <masterLabel>Vlocity</masterLabel>
+            <translation><!-- Vlocity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CI Mode --></label>
+        <name>Flosum__Deployment_Mode__c</name>
+        <picklistValues>
+            <masterLabel>DEPLOY</masterLabel>
+            <translation><!-- DEPLOY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALIDATE</masterLabel>
+            <translation><!-- VALIDATE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CI Deployment Style --></label>
+        <name>Flosum__Deployment_Style__c</name>
+        <picklistValues>
+            <masterLabel>CONTINUE ON FAILURE</masterLabel>
+            <translation><!-- CONTINUE ON FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STOP ON FAILURE</masterLabel>
+            <translation><!-- STOP ON FAILURE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enforce Peer Review at Branch --></label>
+        <name>Flosum__Enforce_pull_request__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Work ID --></label>
+        <name>Flosum__External_Work_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Commit --></label>
+        <name>Flosum__Last_Commit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Updated On --></label>
+        <name>Flosum__Last_Updated_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Review Result --></label>
+        <name>Flosum__Latest_Review_Result__c</name>
+        <relationshipLabel><!-- Branches --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MergedBranchesGit --></label>
+        <name>Flosum__MergedBranchesGit__c</name>
+    </fields>
+    <fields>
+        <label><!-- MergedBranches --></label>
+        <name>Flosum__MergedBranches__c</name>
+    </fields>
+    <fields>
+        <help><!-- - If checked, this branch record has been merged to repository 
+- If NOT checked, this branch is not merged yet. --></help>
+        <label><!-- Merged to Repository? --></label>
+        <name>Flosum__Merged_to_Repository__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Components --></label>
+        <name>Flosum__Number_of_Components__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload --></label>
+        <name>Flosum__Payload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline --></label>
+        <name>Flosum__Pipeline__c</name>
+        <relationshipLabel><!-- Branches --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repository Type --></label>
+        <name>Flosum__Repository_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repository --></label>
+        <name>Flosum__Repository__c</name>
+        <relationshipLabel><!-- Branches --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of issues --></label>
+        <name>Flosum__Review_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review state --></label>
+        <name>Flosum__Review_State__c</name>
+        <picklistValues>
+            <masterLabel>IN PROGRESS</masterLabel>
+            <translation><!-- IN PROGRESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEVER REVIEWED</masterLabel>
+            <translation><!-- NEVER REVIEWED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUEUED</masterLabel>
+            <translation><!-- QUEUED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REVIEWED</masterLabel>
+            <translation><!-- REVIEWED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enable for Scheduled Apex PMD --></label>
+        <name>Flosum__Schedule_ApexPMD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please specify one test class on each line. Please do not use commas to separate the test class names. --></help>
+        <label><!-- Specified Tests --></label>
+        <name>Flosum__Specified_Tests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Flosum__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Timestamp --></label>
+        <name>Flosum__Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Flosum__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- isConflict --></label>
+        <name>Flosum__isConflict__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Flosum__Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Veeva --></label>
+        <name>Flosum__Veeva</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t override peer review setting. --></errorMessage>
+        <name>Flosum__OveridePullRequestValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Repository is mandatory on branch. --></errorMessage>
+        <name>Flosum__RepositoryIsMandatory</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Deploy --></label>
+        <name>Flosum__Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeployBranch --></label>
+        <name>Flosum__DeployBranch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deployment_Analyzer --></label>
+        <name>Flosum__Deployment_Analyzer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Partial_PermissionSet --></label>
+        <name>Flosum__Get_Partial_PermissionSet</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Profile --></label>
+        <name>Flosum__Get_Profile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Impact_Analysis_Branch --></label>
+        <name>Flosum__Impact_Analysis_Branch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Lightning_Test --></label>
+        <name>Flosum__Lightning_Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Make_Review --></label>
+        <name>Flosum__Make_Review</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge --></label>
+        <name>Flosum__Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge_Branch --></label>
+        <name>Flosum__Merge_Branch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PullRequest --></label>
+        <name>Flosum__PullRequest</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rebaseline --></label>
+        <name>Flosum__Rebaseline</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rollback --></label>
+        <name>Flosum__Rollback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_AccelQ_Test --></label>
+        <name>Flosum__Run_AccelQ_Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_ApexPMD --></label>
+        <name>Flosum__Run_ApexPMD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_Pipeline --></label>
+        <name>Flosum__Run_Pipeline</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Schedule_Deployment --></label>
+        <name>Flosum__Schedule_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unlocked_Package --></label>
+        <name>Flosum__Unlocked_Package</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Validate --></label>
+        <name>Flosum__Validate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Dependencies --></label>
+        <name>Flosum__View_Dependencies</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_sync_jobs --></label>
+        <name>Flosum__View_sync_jobs</name>
+    </webLinks>
+</CustomObjectTranslation>

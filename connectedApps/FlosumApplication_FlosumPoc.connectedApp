@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>mullapudim@google.com</contactEmail>
+    <label>FlosumApplication_FlosumPoc</label>
+    <oauthConfig>
+        <callbackUrl>https://capedevops--flosumpoc--flosum.sandbox.vf.force.com/apex/flosum__registerorganizations
+https://capedevops--flosumpoc--flosum.sandbox.vf.force.com/apex/flosum__editrepositorysettings
+https://capedevops--flosumpoc--flosum.sandbox.vf.force.com/apex/flosum__appsetting
+https://capedevops--flosumpoc--flosum.sandbox.vf.force.com/apex/flosum__createvlocitysnapshot
+https://capedevops--flosumpoc--flosum.sandbox.vf.force.com/apex/flosum__vlocitycleanorgdata
+https://capedevops--flosumpoc--flosum.sandbox.vf.force.com/apex/flosum__vlocityinstallvlocityinitial
+https://capedevops--flosumpoc--flosum.sandbox.vf.force.com/apex/flosum__componentvlocitydeployment
+https://capedevops--flosumpoc--flosum.sandbox.vf.force.com/apex/flosum__componentbranchdeploy
+oob</callbackUrl>
+        <consumerKey>yHmE4gYWQwzGzpSBGJX1aud9zbyzkpUGLfp29bQND57uAHjqeXtJnBzWgXCzQlfrDH4zuCHsKvLvbeXMYX7SB</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Check for IP Ranges --></label>
+        <name>orgprofile__Check_for_IP_Ranges__c</name>
+    </fields>
+    <fields>
+        <help><!-- Interval, in minutes, that next Org Profile Generation job should be scheduled for after running --></help>
+        <label><!-- OrgProfileGenerationInterval_Minutes --></label>
+        <name>orgprofile__OrgProfileGenerationInterval_Minutes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email address where important failure notifications should be sent --></help>
+        <label><!-- Org_Profile_Failure_Notification_Email --></label>
+        <name>orgprofile__Org_Profile_Failure_Notification_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Ownership Threshold --></label>
+        <name>orgprofile__Record_Ownership_Threshold__c</name>
+    </fields>
+</CustomObjectTranslation>

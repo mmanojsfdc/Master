@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AccelQ Test Result --></label>
+        <name>Flosum__AccelQ_Test_Result__c</name>
+        <relationshipLabel><!-- AccelQ One Test Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>Flosum__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>Flosum__Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success --></label>
+        <name>Flosum__Success__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Name --></label>
+        <name>Flosum__Test_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Field API Name --></label>
+        <name>Flosum__Field_API__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>Flosum__Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- RelationshipName --></label>
+        <name>Flosum__RelationshipName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Flosum__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- isUpdateble --></label>
+        <name>Flosum__isUpdateble__c</name>
+    </fields>
+    <fields>
+        <label><!-- isView --></label>
+        <name>Flosum__isView__c</name>
+    </fields>
+</CustomObjectTranslation>

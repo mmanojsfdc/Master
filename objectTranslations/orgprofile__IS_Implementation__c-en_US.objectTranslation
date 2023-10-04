@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>orgprofile__IS_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>orgprofile__IS_Business_Unit_Report_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>orgprofile__IS_Business_Unit__c</name>
+        <relationshipLabel><!-- Implementation (OP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Health Check Date --></label>
+        <name>orgprofile__IS_Current_Health_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Health Check Score --></label>
+        <name>orgprofile__IS_Current_Health_Check_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Description --></label>
+        <name>orgprofile__IS_Data_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Highest Data Classification --></label>
+        <name>orgprofile__IS_Highest_Data_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Confidential</masterLabel>
+            <translation><!-- Confidential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highly Confidential</masterLabel>
+            <translation><!-- Highly Confidential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Sure</masterLabel>
+            <translation><!-- Not Sure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted</masterLabel>
+            <translation><!-- Restricted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Instance Country Location --></label>
+        <name>orgprofile__IS_Instance_Country_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instance --></label>
+        <name>orgprofile__IS_Instance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Users --></label>
+        <name>orgprofile__IS_Number_of_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org/Tenant ID --></label>
+        <name>orgprofile__IS_Org_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Name --></label>
+        <name>orgprofile__IS_Org_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Health Check Score --></label>
+        <name>orgprofile__IS_Original_Health_Check_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>orgprofile__IS_Product__c</name>
+        <relationshipLabel><!-- Implementation (OP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Provision Date --></label>
+        <name>orgprofile__IS_Provision_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive Reason Code --></label>
+        <name>orgprofile__Inactive_Reason_Code__c</name>
+        <picklistValues>
+            <masterLabel>Deprovisioned</masterLabel>
+            <translation><!-- Deprovisioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frozen</masterLabel>
+            <translation><!-- Frozen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Go Live</masterLabel>
+            <translation><!-- Pre Go Live --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Instance URL --></label>
+        <name>orgprofile__Instance_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Profile Last Updated Date --></label>
+        <name>orgprofile__Org_Profile_Last_Updated_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Profile --></label>
+        <name>orgprofile__Org_Profile__c</name>
+        <relationshipLabel><!-- Implementation (OP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Security Certifier --></label>
+        <name>orgprofile__Primary_Security_Certifier__c</name>
+        <relationshipLabel><!-- Implementation (OP) (Primary Security Certifier) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RI Running User --></label>
+        <name>orgprofile__RI_Running_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remediator --></label>
+        <name>orgprofile__Remediator__c</name>
+        <relationshipLabel><!-- Implementation (OP) (Remediator) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Secondary Security Certifier --></label>
+        <name>orgprofile__Secondary_Security_Certifier__c</name>
+        <relationshipLabel><!-- Implementation (OP) (Secondary Security Certifier) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Implementation Layout</layout>
+        <sections>
+            <label><!-- Org Profile --></label>
+            <section>Org Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Security Certifiers --></label>
+            <section>Security Certifiers</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Please select an Inactive Reason Code. --></errorMessage>
+        <name>orgprofile__Inactive_Reason_Code_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

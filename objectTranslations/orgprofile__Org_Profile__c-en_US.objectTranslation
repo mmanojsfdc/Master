@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Edition Type --></label>
+        <name>orgprofile__Edition_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- IS Active --></label>
+        <name>orgprofile__IS_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identity URL --></label>
+        <name>orgprofile__Identity_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instance URL --></label>
+        <name>orgprofile__Instance_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>orgprofile__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Updated Date --></label>
+        <name>orgprofile__Org_Profile_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Username of the user from the Salesforce Org subject to Profiling. API calls for the audit data fetched from the Org are executed as this user. --></help>
+        <label><!-- Running User --></label>
+        <name>orgprofile__Running_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- Id of the Org subject to Profiling --></help>
+        <label><!-- Salesforce Org Id --></label>
+        <name>orgprofile__Salesforce_Org_Id__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Export_as_HTML --></label>
+        <name>orgprofile__Export_as_HTML</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export_as_PDF --></label>
+        <name>orgprofile__Export_as_PDF</name>
+    </webLinks>
+</CustomObjectTranslation>

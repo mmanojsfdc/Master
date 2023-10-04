@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Org Profile Failure Notification Email --></label>
+        <name>orgprofile__Org_Profile_Failure_Notification_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Profile Retrieval Interval (mins) --></label>
+        <name>orgprofile__Org_Profile_Retrieval_Interval_mins__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>sectools__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Length --></label>
+        <name>sectools__Data_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Type --></label>
+        <name>sectools__Data_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field API Name --></label>
+        <name>sectools__Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID --></label>
+        <name>sectools__ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obfuscation Type --></label>
+        <name>sectools__Obfuscation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Randomize(Number)</masterLabel>
+            <translation><!-- Randomize(Number) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Randomize(Text)</masterLabel>
+            <translation><!-- Randomize(Text) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set Blank</masterLabel>
+            <translation><!-- Set Blank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set Value</masterLabel>
+            <translation><!-- Set Value --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>sectools__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field input for obfuscation type &apos;Set Value&apos; --></help>
+        <label><!-- Set Value --></label>
+        <name>sectools__Set_Value__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Input &apos;Set Value&apos; field for Obfuscation Type &apos;Set Value&apos; --></errorMessage>
+        <name>sectools__Set_Value_Cannot_be_Blank</name>
+    </validationRules>
+</CustomObjectTranslation>

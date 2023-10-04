@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Governance Profile --></label>
+        <name>orgprofile__Governance_Profile__c</name>
+        <relationshipLabel><!-- Governance Profile Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- License Type --></label>
+        <name>orgprofile__License_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- MajorVersion --></label>
+        <name>orgprofile__MajorVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- MinorVersion --></label>
+        <name>orgprofile__MinorVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>orgprofile__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namespace --></label>
+        <name>orgprofile__Namespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Id --></label>
+        <name>orgprofile__Package_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Name --></label>
+        <name>orgprofile__Package_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sandbox Description --></label>
+        <name>orgprofile__Sandbox_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sandbox Id --></label>
+        <name>orgprofile__Sandbox_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sandbox Name --></label>
+        <name>orgprofile__Sandbox_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Name --></label>
+        <name>orgprofile__Version_Name__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Record type for installed packages --></description>
+        <label><!-- Installed Packages --></label>
+        <name>orgprofile__Installed_Packages</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type for sandboxes --></description>
+        <label><!-- Sandboxes --></label>
+        <name>orgprofile__Sandboxes</name>
+    </recordTypes>
+</CustomObjectTranslation>

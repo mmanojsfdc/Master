@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Domain --></label>
+        <name>Flosum__Domain__c</name>
+        <relationshipLabel><!-- Domains To Pipeline --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pipeline --></label>
+        <name>Flosum__Pipeline__c</name>
+        <relationshipLabel><!-- Domains To Pipeline --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

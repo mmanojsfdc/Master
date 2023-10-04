@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- For Inbound Integrations, specify the API type used for making the interface call. For Outbound specify REST/SOAP callout for real/near real time, or other appropriate mechanism from the list --></help>
+        <label><!-- API Type --></label>
+        <name>orgprofile__API_Type__c</name>
+        <picklistValues>
+            <masterLabel>BULK API</masterLabel>
+            <translation><!-- BULK API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canvas</masterLabel>
+            <translation><!-- Canvas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Data Capture</masterLabel>
+            <translation><!-- Change Data Capture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Durable Streaming</masterLabel>
+            <translation><!-- Durable Streaming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Out</masterLabel>
+            <translation><!-- Lightning Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform Events Publish/Subscribe</masterLabel>
+            <translation><!-- Platform Events Publish/Subscribe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REST API</masterLabel>
+            <translation><!-- REST API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REST Callout</masterLabel>
+            <translation><!-- REST Callout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOAP API</masterLabel>
+            <translation><!-- SOAP API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOAP Callout</masterLabel>
+            <translation><!-- SOAP Callout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Streaming API</masterLabel>
+            <translation><!-- Streaming API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UI API</masterLabel>
+            <translation><!-- UI API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Tab</masterLabel>
+            <translation><!-- Web Tab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflow Outbound Message</masterLabel>
+            <translation><!-- Workflow Outbound Message --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Authentication Type --></label>
+        <name>orgprofile__Authentication_Type__c</name>
+        <picklistValues>
+            <masterLabel>Certificate based Auth</masterLabel>
+            <translation><!-- Certificate based Auth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Username Password</masterLabel>
+            <translation><!-- Username Password --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oAuth</masterLabel>
+            <translation><!-- oAuth --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Count --></label>
+        <name>orgprofile__Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>orgprofile__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatically populated with OrgID+Type value for all automated metrics. Enter OrgID + System Name for all manual entries pertaining to all integrated systems --></help>
+        <label><!-- External Id --></label>
+        <name>orgprofile__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the external system to which Salesforce is integrated to. For e.g. SAP, Netsuite, Datawarehouse etc --></help>
+        <label><!-- External System --></label>
+        <name>orgprofile__External_System__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provides Guidance on how to interpret the information on the profile and what information to enter in case the profile information needs manual inputs (Manual flag is checked) --></help>
+        <label><!-- Guidance --></label>
+        <name>orgprofile__Guidance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Direction of the data flow from Salesforce perspective. Outbound if the flow initiated by Salesforce, Inbound if the flow initiated by the external system using Salesforce API --></help>
+        <label><!-- Integration Direction --></label>
+        <name>orgprofile__Integration_Direction__c</name>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound</masterLabel>
+            <translation><!-- Outbound --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Integration User --></label>
+        <name>orgprofile__Integration_User__c</name>
+        <picklistValues>
+            <masterLabel>Named User/System Account</masterLabel>
+            <translation><!-- Named User/System Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per User</masterLabel>
+            <translation><!-- Per User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Reviewed Date --></label>
+        <name>orgprofile__Last_Reviewed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, indicates that the profile is manually updated by the user --></help>
+        <label><!-- Manual --></label>
+        <name>orgprofile__Manual__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether it is a P2P or middleware brokered integration --></help>
+        <label><!-- Orchestration --></label>
+        <name>orgprofile__Orchestration__c</name>
+        <picklistValues>
+            <masterLabel>Middleware-ESB</masterLabel>
+            <translation><!-- Middleware-ESB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middleware-ETL</masterLabel>
+            <translation><!-- Middleware-ETL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point to Point</masterLabel>
+            <translation><!-- Point to Point --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Org Profile --></label>
+        <name>orgprofile__Org_Profile__c</name>
+        <relationshipLabel><!-- Integration Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Count --></label>
+        <name>orgprofile__Rollup_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>orgprofile__Type__c</name>
+        <picklistValues>
+            <masterLabel>CORS Whitelisted Endpoints</masterLabel>
+            <translation><!-- CORS Whitelisted Endpoints --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connected Apps</masterLabel>
+            <translation><!-- Connected Apps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Data Sources</masterLabel>
+            <translation><!-- External Data Sources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External System</masterLabel>
+            <translation><!-- External System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middleware/ETL/ESB Usage</masterLabel>
+            <translation><!-- Middleware/ETL/ESB Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Named Credentials</masterLabel>
+            <translation><!-- Named Credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Site Settings</masterLabel>
+            <translation><!-- Remote Site Settings --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Utilized --></label>
+        <name>orgprofile__Utilized__c</name>
+    </fields>
+    <layouts>
+        <layout>Integration Profile Layout</layout>
+        <sections>
+            <label><!-- External Systems Integrations --></label>
+            <section>External Systems Integrations</section>
+        </sections>
+        <sections>
+            <label><!-- Guidance --></label>
+            <section>Guidance</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

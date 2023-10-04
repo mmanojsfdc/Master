@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Component History --></label>
+        <name>Flosum__Component_History__c</name>
+        <relationshipLabel><!-- Deployment Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>Flosum__Component_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Type --></label>
+        <name>Flosum__Component_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Developer --></label>
+        <name>Flosum__Developer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>Flosum__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed On --></label>
+        <name>Flosum__Last_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed By --></label>
+        <name>Flosum__Last_Updated_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metadata Log --></label>
+        <name>Flosum__Metadata_Log__c</name>
+        <relationshipLabel><!-- Deployment Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Org --></label>
+        <name>Flosum__Org__c</name>
+        <relationshipLabel><!-- Deployment Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Post Deployment Change --></label>
+        <name>Flosum__Post_Deployment_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>Flosum__Result__c</name>
+        <picklistValues>
+            <masterLabel>CREATED</masterLabel>
+            <translation><!-- CREATED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DELETED</masterLabel>
+            <translation><!-- DELETED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO CHANGE</masterLabel>
+            <translation><!-- NO CHANGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPDATED</masterLabel>
+            <translation><!-- UPDATED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Flosum__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation><!-- Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Flosum__Type__c</name>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation><!-- Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment Result</masterLabel>
+            <translation><!-- Deployment Result --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destructive Changes</masterLabel>
+            <translation><!-- Destructive Changes --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Deployment Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

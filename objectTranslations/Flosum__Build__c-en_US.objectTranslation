@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Deployment Approval --></label>
+        <name>Flosum__Master_Build__c</name>
+        <relationshipLabel><!-- Builds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Multi_Build --></label>
+        <name>Flosum__Multi_Build__c</name>
+        <relationshipLabel><!-- Builds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of Components --></label>
+        <name>Flosum__Number_of_Components__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Flosum__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build Org --></label>
+        <name>Flosum__Org__c</name>
+        <relationshipLabel><!-- Builds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repository --></label>
+        <name>Flosum__Repository__c</name>
+        <relationshipLabel><!-- Builds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Run Test --></label>
+        <name>Flosum__Run_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceId --></label>
+        <name>Flosum__ServiceId__c</name>
+        <relationshipLabel><!-- Builds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>Flosum__Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Flosum__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Succeed --></label>
+        <name>Flosum__Succeed__c</name>
+    </fields>
+</CustomObjectTranslation>
